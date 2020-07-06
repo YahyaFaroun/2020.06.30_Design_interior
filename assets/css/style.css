@@ -1,0 +1,187 @@
+body,h1,h2,h3,h4,p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', 'Work Sans';
+}
+h1{
+    font-size: 7em;
+    font-weight: 500;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 400;
+    
+}
+p{
+    font-size: 1.7em;
+    font-family: 'Work Sans';
+    line-height: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.8em;
+    font-family: 'Work Sans';
+}
+header{
+    height: 85vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1fr;
+}
+header div:first-of-type{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+header div h1{
+padding-bottom: 7vh;
+}
+header div img{
+    width: 100%;
+} 
+header p{
+    font-family: 'Lora';
+}
+
+
+
+nav{
+    background-color: #2e2e2e;
+    height: 15vh;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+nav img{
+    height: 50%;;
+}
+nav ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+nav li:last-of-type{
+    margin-right: 10%;
+}
+
+
+
+
+#story{
+    background-color: #2e2e2e;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 85vh;
+    height: 100%;
+    align-items: center;
+}
+#story img{
+    height: 60vh;
+    width: 100%;
+}
+#story h2,#story p{
+    padding: 0 5% 5vh 5%;
+    color: white;
+}
+#story h2{
+    text-align: center;
+}
+
+
+#featured h2{
+    margin-top: 30vh;
+    text-align: center;
+}
+#featured p:first-of-type{
+    text-align: left;
+    word-spacing: 10px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10vh;
+}
+#featured article{
+    display: flex;
+    justify-content: space-evenly;
+}
+#featured > div:last-child{
+    margin: 0 auto 20vh;
+    text-align: center;    
+}
+
+
+
+#touch{
+    background-color: #2e2e2e;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 70vh;
+    height: 100%;
+    align-items: center;
+    color: white;
+    /* overflow: hidden; */
+}
+#touch div{
+    padding: 0 30% 0 10%;
+}
+#touch h2, p{
+    padding-bottom: 5vh;
+}
+
+
+
+form{
+    display: inline-block;
+    width: 65%;
+    margin-left:5%;
+}
+form fieldset{
+    width: 100%;
+}
+fieldset label{
+    display: block;
+    font-size: 1.6em;
+}
+fieldset input:not(:last-of-type), textarea{
+    width: 100%;
+    margin-bottom: 5vh;
+    line-height: 30px;
+}
+fieldset input:last-of-type{
+    padding: 10px;
+}
+
+
+
+
+
+footer nav{
+    background-color: #1d2c2f;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    justify-items: center;
+}
+footer div:first-of-type{
+    padding-left: 5%;
+}
+footer div:last-of-type{
+    width: 25%;
+}
+footer ul{
+    display: flex;
+}
+footer li{
+    margin-left: 30px;
+}
+footer p{
+    padding: 0;
+}
